@@ -1,0 +1,100 @@
+/* Import de la fuente "Roboto" */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header, main, footer {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1e2326;
+    font-family: 'Roboto';
+    color: #db6fb2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en dispositivos pequeños */
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 10px; 
+}
+
+header h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #252a2e;
+    color: #fff;
+}
+
+.content {
+    text-align: center;
+    font-size: 18px;
+}
+
+.page {
+    display: none;
+    text-align: center;
+}
+
+.page.active {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #db6fb2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+}
+
+.nav-button {
+    font-size: 24px;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #db6fb2;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e2326;
+    color: #fff;
+    padding: 10px 0;
+    font-family: 'Roboto';
+}
